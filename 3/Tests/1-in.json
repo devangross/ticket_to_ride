@@ -1,0 +1,10 @@
+"LA"
+
+"SB"
+
+{
+  "width": 800,
+  "height": 10,
+  "cities": [["LA", [800, 0]], ["SB", [799, 10]]],
+  "connections": {}
+}

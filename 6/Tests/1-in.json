@@ -1,0 +1,37 @@
+{
+    "width": 800,
+    "height": 800,
+    "cities": [["Common",    [400, 400]],    ["Portland",     [80, 80]],
+      ["Brookline", [300, 300]],    ["Northeastern", [300, 425]],
+      ["Seaport",   [750, 375]],    ["Cambridge",    [100, 100]],
+      ["Chinatown", [500, 350]],    ["Financial District", [700, 200]]],
+    "connections":
+    {"Brookline": {
+      "Cambridge": {"white": 5},
+      "Chinatown": {"green":  5},
+      "Seaport": {"white":  3}},
+      "Cambridge": {
+        "Financial District":  {"red":  4}},
+      "Common": {
+        "Financial District": {"green":  5}}
+    }
+}
+{
+"this":
+{
+    "destination1": ["Brookline", "Seaport"],
+    "destination2": ["Common", "Financial District"],
+    "rails": 2,
+    "cards": {
+        "blue": 1010101010101002324324324013202453895434853584357934758934759438759348582409280349832094840958409358309584309584309856304958034958340583408509486758968043580349584038534094820,
+        "red": 2,
+        "green": 2,
+        "white": 2},
+    "acquired": [["Brookline", "Chinatown", "green", 5]]
+},
+"acquired": [[["Cambridge", "Financial District", "red", 4]], [["Common", "Financial District", "green", 5]]]
+}
+  
+  
+
+

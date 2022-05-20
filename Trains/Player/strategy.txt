@@ -1,0 +1,3 @@
+Our strategy is located at black-canyon/Trains/Other/Trains/src/Strategy/. 
+
+There you will find the interface and implmentation across multiple classes.

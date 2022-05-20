@@ -1,0 +1,35 @@
+{
+  "width": 800,
+  "height": 800,
+  "cities": [
+    ["Common", [400, 240]],
+    ["Brookline", [80, 160]],
+    ["Seaport", [720, 360]],
+    ["Cambridge", [88, 80]],
+    ["Chinatown", [480, 320]],
+    ["Financial District  East", [640, 160]],
+    ["Maine", [800, 0]],
+    ["Washington", [0, 0]],
+    ["San Diego, CA", [0, 800]], 
+    ["Florida", [800, 800]]],
+  "connections": {
+    "Brookline": {
+      "Cambridge": { "red": 5 },
+      "Common": { "red": 3, "blue": 4, "green": 3 }
+    },
+    "Cambridge": {
+      "Common": { "red": 3 },
+      "Financial District  East": { "blue": 4, "red": 5 }
+    },
+    "Common": {
+      "Chinatown": { "white": 3 },
+      "Financial District  East": { "white": 4 },
+      "Seaport": { "blue": 4 }
+    },
+    "Financial District  East": {
+      "Seaport": { "white": 3 }
+    }
+  }
+}
+
+

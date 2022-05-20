@@ -1,0 +1,1 @@
+Our manager component is at huron/Trains/Other/Trains/src/GameAgent/Manager.java

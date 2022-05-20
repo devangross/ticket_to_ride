@@ -1,0 +1,75 @@
+{
+  "width": 800,
+  "height": 800,
+  "cities": [["Brookline", [80, 400]],    ["Common", [400, 350]],
+    ["Chinatown", [550, 350]], ["Financial District", [600, 250]],
+    ["Seaport",   [750, 450]], ["Cambridge", [100, 100]],
+    ["Fenway", [100, 600]]],
+  "connections":
+  {
+    "Brookline": {
+      "Cambridge": {"red": 5},
+      "Common": {"blue":  4, "green":  3}},
+    "Cambridge": {
+      "Common": {"red":  3},
+      "Financial District":  {"red":  5, "blue":  4}},
+    "Chinatown": {
+      "Common": {"white":  3},
+      "Fenway": {"green":  4}},
+    "Common": {
+      "Financial District": {"white":  4},
+      "Seaport":  {"blue": 4}},
+    "Financial District": {
+      "Seaport": {"white":  4}}
+  }
+}
+
+[
+  ["zero", "Buy-Now"],
+  ["one", "Hold-10"],
+  ["two", "Cheat"],
+  ["three", "Hold-10"],
+  ["four", "Hold-10"],
+  ["five", "Hold-10"],
+  ["six", "Buy-Now"],
+  ["seven", "Hold-10"],
+  ["eight", "Cheat"],
+  ["nine", "Hold-10"],
+  ["ten", "Buy-Now"],
+  ["eleven", "Hold-10"],
+  ["twelve", "Buy-Now"],
+  ["thirteen", "Hold-10"],
+  ["fourteen", "Cheat"],
+  ["fifteen", "Hold-10"],
+  ["sixteen", "Buy-Now"],
+  ["seventeen", "Hold-10"],
+  ["eighteen", "Buy-Now"],
+  ["nineteen", "Hold-10"],
+  ["twenty", "Cheat"]
+]
+
+["white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue",
+  "white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue",
+  "white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue",
+  "white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red"
+]
+

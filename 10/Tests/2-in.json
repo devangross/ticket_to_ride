@@ -1,0 +1,47 @@
+{
+  "width": 800,
+  "height": 800,
+  "cities": [["Brookline", [80, 400]],    ["Common", [400, 350]],
+    ["Chinatown", [550, 350]], ["Financial District", [600, 250]],
+    ["Seaport",   [750, 450]], ["Cambridge", [100, 100]]],
+  "connections":
+  {
+    "Brookline": {
+      "Cambridge": {"red": 5},
+      "Common": {"blue":  4, "green":  3}}
+  }
+}
+
+[
+  ["zero", "Buy-Now"],
+  ["one", "Hold-10"],
+  ["two", "Cheat"]
+]
+
+["white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue",
+  "white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue",
+  "white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue",
+  "white","red","green","blue","white","red","green","blue","white","red","green",
+  "blue","white","red","green","blue","white","red","green","blue","white","red",
+  "green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red","green","blue","white","red","green","blue","white","red","green","blue","white",
+  "red"
+]
+
+
+

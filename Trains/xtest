@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mvn -f Other/pom.xml -l testLog.txt test
+
+ran=$(( $(cat testLog.txt | grep "Tests run" | grep -v "Time elapsed" | cut -d , -f 1 | cut -d " " -f 3 | tr "\n" "+") 0))
+failed=$(( $(cat testLog.txt | grep "Tests run" | grep -v "Time elapsed" | cut -d , -f 2 | cut -d " " -f 3 | tr "\n" "+") 0))
+
+echo "Tests passed:" $((ran-failed))"/"$ran
+
+rm testLog.txt
+rm -r Other/target
